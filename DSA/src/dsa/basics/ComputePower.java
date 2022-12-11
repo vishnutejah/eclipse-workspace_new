@@ -17,6 +17,11 @@ public class ComputePower {
 			return temp;
 		else
 			return temp*i;
-	}
+		
+//		Iterative power** more efficient**
+		/*
+		 * // int res=1; // while(j>0) { // if(i%2!=0) // res=res*i; // i=i*i; // j=j/2;
+		 * // } // return res;
+		 */	}
 
 }
